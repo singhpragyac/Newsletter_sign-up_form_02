@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outer"  id="custom_alert" >
+        <div class="inner">
+            <img src="img/icon-success.svg" class="img"><br>
+            <span class="content1">Thanks for subscribing!</span><br>
+            <span class="content2">A confirmation email has been send to <span id="user_email">abc@loremcompany.com</span> open it and click the button inside to confirm your subscription.</span>
+            <div id="dismiss"  onclick="this.parentElement.parentElement.style.display = 'none';" > Dismiss message </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="content">
+            <span class="top">Stay updated!</span><br>
+            <span class="sp_1"> Join 60,000+ product managers receiving monthly<br> updates on:</span><br>
+            <span> 
+                <img src="img/icon-list.svg"> <span class="sp_2">Product discovery and  building what matters</span>
+            </span><br>
+            <span class="sp_3"> <img src="img/icon-list.svg">  Measuring to ensure updates are a success</span><br>
+            <span class="sp_4"> <img src="img/icon-list.svg">  and much more!</span><br><br>
+            <label for="gmail">Email Address</label><br>
+            <input type="text" id="gmail" placeholder="email@company.com" required>
+            <button type="submit" class="button" onclick="myalert(document.getElementById('gmail').value)">Subscribe to monthly newsletter</button>
+        </div>
+       <img src="img/illustration-sign-up-desktop.svg" class="image">  
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

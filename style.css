@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(15, 15, 61);
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    height: 405px;
+  width: 710px;
+  background-color: rgb(253, 253, 255);
+  display: flex;
+  border-radius: 25px;
+  margin-top: 103px;
+  
+}
+
+.content {
+    margin-left: 38px;
+  margin-top: 25px;
+  height: 374px;
+  width: 372px;
+
+}
+.top {
+    font-size: 48px;
+}
+.sp_1 {
+    font-size: 15px;
+}
+
+
+
+.image {
+    height: 374px;
+    margin-top: 14px;
+    margin-left: 34px;
+    width: 252px;
+}
+
+#gmail {
+    height: 47px;
+    width: 361px;
+    border: 1px solid rgb(182, 177, 177);
+    border-radius: 6px;
+}
+.button {
+    height: 49px;
+  width: 369px;
+  border: 1px solid #ded2d2;
+  border-radius: 9px;
+  margin-top: 10px;
+  color: white;
+  background: black;
+}
+
+.button:hover {
+    background-color:hsl(4, 100%, 67%);
+}   
+
+
+/* style for alert */
+
+
+.outer {
+    display: none;
+    position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(83, 91, 90);
+  opacity: 1;
+
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-top: 9rem;
+    padding: 28px;
+    border: 1px solid #888;
+    border-radius: 25px;
+    position: relative;
+    width: 325px;
+    height: 276px;
+  
+}
+
+.img {
+    height: 40px;
+    width: 40px;
+}
+
+.content1 {
+    font-weight: bold;
+  font-size: xx-large;
+}
+
+.content2 {
+    font-size: 14px;
+}
+#dismiss {
+    margin-left: auto;
+    margin-right: auto;
+    height: 23px;
+    width: 298px;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border: 1px solid #ded2d2;
+    margin-top: 17px;
+    text-align: center;
+    border-radius: 6px;
+}
+#dismiss:hover {
+    background-color:hsl(4, 100%, 67%);
+
+
+}
